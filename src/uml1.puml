@@ -1,10 +1,10 @@
 @startuml
-:Cliente:
 
-(Meter Dinero)
-(Pedir azucar)
-(Pedir Producto)
-(Cancelar)
-(Devolver Dinero)
-
+left to right direction
+:Cliente: -- (Meter Dinero)
+:Cliente: -- (Pedir azucar)
+:Cliente: -- (Pedir Producto)
+:Cliente: -- (Cancelar)
+(Pedir Producto) ..> (Devolver Dinero) : <<include>>
+(Cancelar) ..> (Devolver Dinero) : <<include>>
 @enduml
