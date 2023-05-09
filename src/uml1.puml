@@ -1,4 +1,10 @@
 @startuml
-aa
+:Cliente:
+
+(Meter Dinero)
+(Pedir azucar)
+(Pedir Producto)
+(Cancelar)
+(Devolver Dinero)
 
 @enduml
