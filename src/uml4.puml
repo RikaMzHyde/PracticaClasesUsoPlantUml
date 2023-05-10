@@ -4,5 +4,6 @@ left to right direction
 :Ciudadano extranjero: -- (Tomar huellas)
 
 (Tomar huellas) ..> (Registrar entrada) : <<extend>>
+:Ciudadano extranjero: --|> :Ciudadano:
 
 @enduml
