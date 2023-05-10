@@ -1,0 +1,8 @@
+@startuml
+left to right direction
+:Ciudadano: -- (Registrar entrada)
+:Ciudadano extranjero: -- (Tomar huellas)
+
+(Tomar huellas) ..> (Registrar entrada) : <<extend>>
+
+@enduml
