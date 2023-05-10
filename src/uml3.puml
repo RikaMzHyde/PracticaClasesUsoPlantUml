@@ -1,12 +1,15 @@
 @startuml
-left to right direction
-:Usuario:
-:Administrador:
 
-(Iniciar sesion)
-(Recuperar contraseña)
-(Modificar contraseña)
-(Cerrar sesion)
-(Registrar usuario)
-(Instalar programa)
+left to right direction
+
+
+:Usuario: -- (Iniciar sesion)
+:Usuario: -- (Recuperar contraseña)
+:Usuario: -- (Modificar contraseña)
+:Usuario: -- (Cerrar sesion)
+
+:Administrador: -- (Registrar usuario)
+:Administrador: -- (Instalar programa)
+
+:Administrador: --|> :Usuario:
 @enduml
